@@ -15,3 +15,7 @@ class Solution:
                     ans = max(ans, i - stack[-1])
 
         return ans
+
+
+s = input()
+print(Solution().longestValidParentheses(s))
